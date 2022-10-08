@@ -26,7 +26,7 @@ public class EngineAssyController {
     public String listView(ModelMap modelMap) {
         LOGGER.info("listView()");
         List<EngineAssyModel> engineAssyModelList = engineAssyService.list();
-        modelMap.addAttribute("engine", engineAssyModelList);
+        modelMap.addAttribute("engines", engineAssyModelList);
         return "engineassy-list";
     }
 
