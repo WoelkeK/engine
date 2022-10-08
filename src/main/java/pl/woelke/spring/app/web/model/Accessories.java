@@ -1,4 +1,4 @@
-package pl.woelke.accessories.model;
+package pl.woelke.spring.app.web.model;
 
 public class Accessories {
 

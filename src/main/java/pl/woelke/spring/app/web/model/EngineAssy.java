@@ -1,20 +1,12 @@
-package pl.woelke.engine.model;
+package pl.woelke.spring.app.web.model;
 
-public class Engine {
+public class EngineAssy {
 
-    private String type;
     private String brand;
+    private String type;
     private int power;
 
-    public Engine() {
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+    public EngineAssy() {
     }
 
     public String getBrand() {
@@ -23,6 +15,14 @@ public class Engine {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public int getPower() {
@@ -35,9 +35,9 @@ public class Engine {
 
     @Override
     public String toString() {
-        return "Engine{" +
-                "type='" + type + '\'' +
-                ", brand='" + brand + '\'' +
+        return "EngineAssy{" +
+                "brand='" + brand + '\'' +
+                ", type='" + type + '\'' +
                 ", power=" + power +
                 '}';
     }
