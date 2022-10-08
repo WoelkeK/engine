@@ -1,12 +1,12 @@
 package pl.woelke.spring.app.web.model;
 
-public class EngineAssy {
+public class EngineAssyModel {
 
     private String brand;
     private String type;
     private int power;
 
-    public EngineAssy() {
+    public EngineAssyModel() {
     }
 
     public String getBrand() {
